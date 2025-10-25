@@ -9,6 +9,7 @@ Welcome to my Machine Learning practice repository! Here, I share my complete ML
 - [Machine Learning](#machine-learning)
 - [ML vs DL](#ml-vs-dl)
 - [Conclusion](#conclusion)
+- [Types of Machine Learning](#types-of-machine-learning)
 - [References](#references)
 
 ## Machine Learning
@@ -34,7 +35,50 @@ Inspired by the human brain, we train a model to learn the data, similar to mach
 ### Conclusion
 
 (Explicit programming (only suits for the particular scenario)) > (ML (can learn with data (features and target) on its own and work with different scenarios)) > (DL (creates features by its own to find the target))
-     
+
+## Types of Machine Learning
+
+### 1. Supervised Learning
+Generally, supervised machine learning works to find the relationship between input and the output. With that, we can find the pattern for new input.
+
+- **Regression**
+  - Numerical data
+  - **Example**
+    - House price prediction
+    - Email spam detection
+- **Classification**
+  - Not numerical, just categorizing the data into groups based on its behavior
+  - **Example**
+    - Gender
+    - Nation
+
+### 2. Unsupervised Learning
+In unsupervised learning, there is only the input.
+
+- **Clustering**
+  - Labeling the group of objects based on its behavior
+  - **Example**
+    - Customer segmentation:
+      - Customers who spend more and buy more products: label - big customer
+      - Customers who spend more but buy less products: label - small customer
+      - Customers who spend less and buy less products: label - regular customer
+  - ![alt text](assert/image.png)
+- **Dimensionality Reduction**
+  - Reduce the columns in the input. If there are two or more columns in the input, it can combine them into one to make the algorithm easier.
+  - **Example**
+    - House price prediction with two inputs: number of "bedrooms" and "washrooms" converted into a single column "square feet"
+- **Anomaly Detection**
+  - Finds the outlier data
+- **Association Rule Learning**
+  - Used to find the correlation between data
+  - **Example**
+    - While scanning hundreds of bills in a supermarket, finding that 60% of customers buy eggs while buying milk
+
+### 3. Semi-Supervised Learning
+Can work with few labeled data. By that data, it can label other data itself.
+
+### 4. Reinforcement Learning
+The algorithm can improve itself over time with the help of feedback.
 
 ## References
 
