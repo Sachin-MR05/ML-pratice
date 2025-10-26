@@ -9,7 +9,7 @@ A movie recommendation website trained with user data from daily watch history.
 **Problem**  
 Because the data is big, we can train the model on the server. If we want to update the model with the user's next day watch history data, we need to pull the model, train it with the new + old data, test it, and push it back to the server.
 
-![alt text](assert/BatchLearning.png)
+![alt text](/assert/BatchLearning.png)
 
 **Disadvantages**
 - The data doubles or triples every time we repeat the process.
@@ -21,7 +21,7 @@ Because the data is big, we can train the model on the server. If we want to upd
 - TensorFlow (want to practice)
 
 ## Online Machine Learning
-![alt text](assert/Olinelearning.png)
+![alt text](/assert/Olinelearning.png)
 
 Here the model is trained side by side while running on the server by small batches of data.
 
