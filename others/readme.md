@@ -21,10 +21,10 @@ Removing unwanted data and merging similar data makes the model more efficient.
 
 **Overfitting:** The model tries to memorize the training data and does not generalize or understand the data well.
 
-![alt text](assert/overfit.png)
+![alt text](/assert/overfit.png)
 
 **Underfitted model:** The prediction is the same line whether the data fluctuation is high or low.
 
-![alt text](assert/underfit.png)
+![alt text](/assert/underfit.png)
 
 **Reference:** [https://youtu.be/WGUNAJki2S4?si=XMewDtwuxEL6HCJC](https://youtu.be/WGUNAJki2S4?si=XMewDtwuxEL6HCJC)
